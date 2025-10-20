@@ -7,6 +7,7 @@ To write a Python program to convert the number 16 into its binary representatio
 Assign the value 16 to a variable a.
 Use the built-in bin() function to convert the number to binary.
 Print the result.
+
 🧾 Program
 a = 16
 binary_representation = bin(a)
@@ -19,6 +20,7 @@ Result
 Thus to write a Python program to convert the number 16 into its binary representation using built-in Python functions has been executed sucessfully.
 
 Functions in Python: Modulo Calculator
+
 🎯 Aim
 To write a Python program that defines a function which accepts two values and returns their modulo using the % operator.
 
@@ -28,6 +30,7 @@ Inside the function, compute the modulo using a % b.
 Print the result of the modulo operation.
 Get two integer inputs from the user.
 Call the result function with the user-provided values.
+
 🧾 Program
 def result(a, b):
     print(a % b)
@@ -35,6 +38,7 @@ def result(a, b):
 a = int(input("Enter the first number: "))
 b = int(input("Enter the second number: "))
 result(a, b)
+
 Output
 <img width="1086" height="895" alt="Screenshot 2025-10-20 162024" src="https://github.com/user-attachments/assets/f27a9b6c-59e2-45c6-b2c6-a23f5ae1251a" />
 
@@ -42,6 +46,7 @@ Result
 Thus To write a Python program that defines a function which accepts two values and returns their modulo using the % operator has been executed sucessfully.
 
 Lambda Function in Python: Addition of Two Numbers
+
 🎯 Aim
 To write a Python program that defines a lambda function which takes two arguments a and b, and returns their sum.
 
@@ -49,6 +54,7 @@ To write a Python program that defines a lambda function which takes two argumen
 Get two integer inputs from the user.
 Use a lambda function to define a function f that returns a + b.
 Call the function with the user inputs and print the result.
+
 🧾 Program
 a = int(input("Enter the first number: "))
 b = int(input("Enter the second number: "))
@@ -57,6 +63,7 @@ f = lambda a, b: a + b
 result = f(a, b)
 
 print("Sum:", result)
+
 Output
 <img width="1120" height="885" alt="Screenshot 2025-10-20 162116" src="https://github.com/user-attachments/assets/4c336198-a36a-43f0-9e4e-0170c5a7cfa1" />
 
